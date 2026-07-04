@@ -57,5 +57,6 @@ function setActiveGame(index) {
 
 document.querySelector('.carousel-control.prev')?.addEventListener('click', () => setActiveGame(activeGame - 1));
 document.querySelector('.carousel-control.next')?.addEventListener('click', () => setActiveGame(activeGame + 1));
+document.getElementById("copyright-year").textContent = new Date().getFullYear();
 
 renderGames();
