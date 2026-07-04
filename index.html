@@ -2,43 +2,81 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport"
-			  content="width=device-width, initial-scale=1.0">
-		<title>Ryu Interactive</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Ryu Interactive is an independent game studio portfolio showcasing compact, polished indie game projects.">
+		<title>Ryu Interactive | Indie Game Developer</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect"
-			  href="https://fonts.gstatic.com"
-			  crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-			  rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 	</head>
 	<body>
-		<aside class="sidebar">
-			<div class="logo">
-				<img src="assets/logo.png" alt="Logo">
-				<h2>Ryu Interactive</h2>
-			</div>
-			<nav>
+		<header class="topbar" aria-label="Primary navigation">
+			<a class="brand" href="#home" aria-label="Ryu Interactive home">
+				<img src="assets/logo/logo.png" alt="Ryu Interactive logo">
+				<span>Ryu Interactive</span>
+			</a>
+			<nav class="nav-links">
 				<a href="#home">Home</a>
+				<a href="#games">Games</a>
 				<a href="#about">About</a>
-				<a href="#projects">Projects</a>
-				<a href="#skills">Skills</a>
 				<a href="#contact">Contact</a>
 			</nav>
-		</aside>
+			<div class="social-icons" aria-label="Social links">
+				<a href="https://github.com/WarDragon3399" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+				<a href="#contact" aria-label="itch.io"><i class="fa-brands fa-itch-io"></i></a>
+				<a href="#contact" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+				<a href="mailto:hello@ryuinteractive.dev" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+			</div>
+		</header>
+
 		<main>
-			<section id="home" class="hero">
-				<div class="buttons">
-					<a href="#projects" class="btn">Projects</a>
-					<a href="https://github.com/WarDragon3399"
-					   target="_blank"
-					   class="btn secondary">
-						GitHub
-					</a>
+			<section id="home" class="hero section-panel">
+				<p class="eyebrow">Independent Game Studio</p>
+				<h1>Ryu Interactive</h1>
+				<p class="subtitle">Indie Game Developer crafting focused arcade, action, and experimental play experiences.</p>
+				<div class="hero-actions">
+					<a href="#games" class="btn">View Games</a>
+					<a href="#contact" class="btn secondary">Contact</a>
+				</div>
+			</section>
+
+			<section id="games" class="section-panel games-section">
+				<div class="section-heading">
+					<p class="eyebrow">Games</p>
+					<h2>Playable ideas, prototypes, and releases.</h2>
+				</div>
+				<div class="carousel-shell">
+					<button class="carousel-control prev" type="button" aria-label="Previous game"><i class="fa-solid fa-chevron-left"></i></button>
+					<div id="gamesCarousel" class="games-carousel" aria-live="polite"></div>
+					<button class="carousel-control next" type="button" aria-label="Next game"><i class="fa-solid fa-chevron-right"></i></button>
+				</div>
+			</section>
+
+			<section id="about" class="section-panel about-section">
+				<div class="section-heading">
+					<p class="eyebrow">About</p>
+					<h2>Small studio. Sharp experiences.</h2>
+				</div>
+				<p>Ryu Interactive is an indie game studio focused on compact, expressive games with clean mechanics, strong atmosphere, and responsive feel. The studio portfolio is built to showcase games first, making each project easy to update from a single data file.</p>
+			</section>
+
+			<section id="contact" class="section-panel contact-section">
+				<div class="section-heading">
+					<p class="eyebrow">Contact</p>
+					<h2>Follow development or get in touch.</h2>
+				</div>
+				<div class="contact-grid">
+					<a href="https://github.com/WarDragon3399" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+					<a href="mailto:hello@ryuinteractive.dev"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+					<a href="#home"><i class="fa-brands fa-youtube"></i><span>YouTube</span></a>
+					<a href="#home"><i class="fa-brands fa-itch-io"></i><span>itch.io</span></a>
 				</div>
 			</section>
 		</main>
-		<script src="script.js"></script>	
+
+		<script src="games.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
