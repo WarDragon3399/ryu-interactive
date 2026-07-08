@@ -25,10 +25,20 @@ const games = [
     title: "Space Corp 2",
     engine: "Unity",
     description: "Minimal space theme game",
-    image: "assets/games/WebTrasnNote.png",
+    image: "assets/games/space-corp-2.png",
+    github: "https://wardragon3399.itch.io/spacecorpmeteors",
+    itch: "",
+    youtube: "",
+    playstore: ""
+  },
+  {
+    title: "Web Translator Notepade",
+    engine: "Web Project",
+    description: "It's a transpade which able to translate voice inpute and some other transpad features",
+    image: "assets/games/web-trasn-note.png",
     github: "https://github.com/WarDragon3399/Web-Translator-Notepad",
     itch: "",
     youtube: "",
     playstore: ""
-  }
+  } 
 ];
