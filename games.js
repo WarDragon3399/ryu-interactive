@@ -25,9 +25,9 @@ const games = [
     title: "Space Corp 2",
     engine: "Unity",
     description: "Minimal space theme game",
-    image: "assets/games/space-corp-2.png",
-    github: "",
-    itch: "https://wardragon3399.itch.io/spacecorpmeteors",
+    image: "assets/games/WebTrasnNote.png",
+    github: "https://github.com/WarDragon3399/Web-Translator-Notepad",
+    itch: "",
     youtube: "",
     playstore: ""
   }
