@@ -2,7 +2,10 @@ const gameLinks = [
   { key: 'github', label: 'GitHub', icon: 'fa-brands fa-github' },
   { key: 'itch', label: 'itch.io', icon: 'fa-brands fa-itch-io' },
   { key: 'youtube', label: 'YouTube', icon: 'fa-brands fa-youtube' },
-  { key: 'playstore', label: 'Google Play', icon: 'fa-brands fa-google-play' }
+  { key: 'playstore', label: 'Google Play', icon: 'fa-brands fa-google-play' },
+  { key: 'edgeext', label: 'Edge Extensions', icon: 'fa-brands fa-edge' },
+  { key: 'firefoxext', label: 'Firefox Extensions', icon: 'fa-brands fa-firefox-browser' },
+  { key: 'godot', label: 'Godot Asset Store', icon: 'fa-solid fa-puzzle-piece' }
 ];
 
 const carousel = document.querySelector('#gamesCarousel');

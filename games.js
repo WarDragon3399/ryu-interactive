@@ -6,30 +6,30 @@ const games = [
     engine: "Godot",
     description: "A puzzle game with GBA and DS style made as comffy summer 2026 Jam project ",
     image: "assets/games/summer-of-sandcastles.png",
-    github: "",
+    //github: "",
     itch: "https://david-mehrer-music.itch.io/summer-of-sandcastles",
-    youtube: "",
-    playstore: ""
+    //youtube: "",
+    //playstore: "",
   }, 	
   {
     title: "Pinball Drift",
     engine: "Unity",
     description: "Arcade pinball prototype built around fast rebounds, tight ramps, and drift-inspired scoring routes.",
     image: "assets/games/pinball-drift.png",
-    github: "",
-    itch: "",
+    //github: "",
+    //itch: "",
     youtube: "https://youtube.com/shorts/LnpzghL2M_w",
-    playstore: ""
+    //playstore: "",
   },
   {
     title: "Space Corp 2",
     engine: "Unity",
     description: "Minimal space theme game",
     image: "assets/games/space-corp-2.png",
-    github: "https://wardragon3399.itch.io/spacecorpmeteors",
-    itch: "",
-    youtube: "",
-    playstore: ""
+    //github: "",
+    itch: "https://wardragon3399.itch.io/spacecorpmeteors",
+    //youtube: "",
+    //playstore: "",
   },
   {
     title: "Web Translator Notepade",
@@ -37,8 +37,26 @@ const games = [
     description: "It's a transpade which able to translate voice inpute and some other transpad features",
     image: "assets/games/web-trasn-note.png",
     github: "https://github.com/WarDragon3399/Web-Translator-Notepad",
-    itch: "",
-    youtube: "",
-    playstore: ""
-  } 
+    //youtube: "",
+    edgeext: "https://microsoftedge.microsoft.com/addons/detail/web-translator-notepad/klopcjopeiopjkoclbhkedjgpmjbmmkn",
+	firefoxext: "https://addons.mozilla.org/en-US/firefox/addon/web-translator-notepad/",
+  },
+  {
+    title: "WD Screen Translator",
+    engine: "Windows Application",
+    description: "It's a translator capture screen with help of OCR and by using windows language pack Translate screen for Gamers mostly",
+    image: "assets/games/wd-screen-translator.png",
+    github: "https://github.com/WarDragon3399/WD-Screen-Translator/releases/tag/Translator",
+    //youtube: "",
+  },	
+  {
+    title: "Godot Spawn Manager Add-on",
+    engine: "Godot",
+    description: "It's Add-on or plugin for Godot Games developers",
+    image: "assets/games/spawn-manager.png",
+    github: "https://github.com/WarDragon3399/spawn-manager/releases/tag/v1.0",
+	//itch: "",
+    //youtube: "",
+	godot: "https://store.godotengine.org/asset/ryu-interactive/spawn-manager/"
+  } 			
 ];
