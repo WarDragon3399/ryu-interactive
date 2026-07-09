@@ -25,7 +25,7 @@ const games = [
     title: "Space Corp Meteors",
     engine: "Unity",
     description: "Minimal space theme game",
-    image: "assets/games/space-corp.png",
+    image: "assets/games/space-corp-2.png",
     //github: "",
     itch: "https://wardragon3399.itch.io/space-corpweb",
     //youtube: "",
